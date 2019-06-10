@@ -6,7 +6,7 @@ class Sidebar extends Component {
 	}
 	render() {
 		return (
-			<div style={{position: "fixed"}}>
+			<div style={{position: "fixed", height: "100%", width: "15%", border: "1px solid black"}}>
 				<ul>
 					<li><a>Menus</a></li>
 					<li><a>Information</a></li>
