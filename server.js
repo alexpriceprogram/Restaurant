@@ -9,7 +9,7 @@ app.get('/ping', function (req, res) {
 });
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'src', 'index.js'));
 });
 
 app.listen(process.env.PORT || 8080);
