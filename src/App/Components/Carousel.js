@@ -4,7 +4,6 @@ class Carousel extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {image_index: 0}
-		this.incrementImage.bind(this)
 	}
 	incrementImage(){
 		this.setState({image_index: this.state.image_index + 1})
@@ -18,7 +17,7 @@ class Carousel extends Component {
 				this.setState({image_index: 0})
 			}
 		}
-		, 1000);
+		, 5000);
 
 	}
 	render() {
