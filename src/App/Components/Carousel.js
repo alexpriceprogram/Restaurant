@@ -27,10 +27,8 @@ class Carousel extends Component {
 				display_value = "block"
 			}
 			let img_src =  require("../Assets/Images/" + image + ".jpg")
-			console.log(img_src)
 			return (<img className="image-asset" data-index={index} style={{position: "fixed", height: "100vh", width: "100%", border: "1px solid black", marginLeft: "15%", display: display_value}} src={img_src} />)
 		})
-		console.log(images)
 		return (<div>{images} </div>)
 	}
 }
