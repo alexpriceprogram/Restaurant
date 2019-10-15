@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class MenuItem extends Component {
 	constructor(props) {
 		console.log(props)
