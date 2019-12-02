@@ -3,6 +3,7 @@ import Information from './Information.js'
 import Menu from './Menu.js'
 import Carousel from './Carousel.js'
 import Careers from './Careers.js'
+import Contacts from './Contacts.js'
 
 class MainContent extends Component {
 	constructor(props) {
@@ -12,7 +13,7 @@ class MainContent extends Component {
 
 
   render() {
-  	if (this.props.page == "Menu") {
+  	if (this.props.page === "Menu") {
   		return (
   		  <div>
 	  		  <Carousel images={["burger", "cake", "justshells", "meatlemon", "pancakes", "quiche", "salad"]}/>
@@ -20,16 +21,21 @@ class MainContent extends Component {
   		  </div>
   		)
   	}
-  	else if (this.props.page == "Careers") {
+  	else if (this.props.page === "Careers") {
   		return (
   			<div>
   				<Careers />
   			</div>
   		)
   	}
-  	else if (this.props.page == "Information") {
+  	else if (this.props.page === "Information") {
   		return (
   			<Information />
+		)
+  	}
+  	else if (this.props.page === "Contacts") {
+  		return (
+  			<Contacts />
 		)
   	}
 

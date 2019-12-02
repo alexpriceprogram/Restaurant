@@ -1,0 +1,1 @@
+let burger = "data:image/png;base64, 123" 

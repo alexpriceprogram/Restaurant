@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import JobInfo from './JobInfo.js'
-//import Card from 'react-bootstrap/Card'
 
 class Careers extends Component {
-		constructor(props) {
-		super(props);
-	}
 	render() {
 		let sideImage = require("../Assets/Images/smiler.jpg")
 		return(
@@ -16,7 +12,7 @@ class Careers extends Component {
 				<p style={{fontSize: "16pt"}}>Contact us at hiring@elmersgrocer.com if you are a <br/> motivated, team-oriented worker and wish to apply!</p>
 			</div>
 			<div style={{marginLeft: "55%", position: "absolute", top: "0", display: "inline-block", width: "45%"}}>
-				<img style={{width: "100%", height: "auto"}} src={sideImage}/>
+				<img style={{width: "100%", height: "auto"}} alt="smiling-woman" src={sideImage}/>
 			</div>
 		</div>
 			)

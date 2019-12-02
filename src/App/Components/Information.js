@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class Information extends Component {
-	constructor(props) {
-		super(props);
-	}
 	render() {
 		let sideImage = require("../Assets/Images/table-for-two.jpg")
 		return(
@@ -19,7 +16,7 @@ class Information extends Component {
 				Sunday-Saturday  //  5:30 pm – 12:00 am
 			</div>
 			<div style={{marginLeft: "55%", position: "absolute", top: "0", display: "inline-block", width: "45%"}}>
-				<img style={{width: "100%", height: "auto"}} src={sideImage}/>
+				<img style={{width: "100%", height: "auto"}} alt="dinner-table" src={sideImage}/>
 			</div>
 		</div>
 			)
