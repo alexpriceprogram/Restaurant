@@ -40,7 +40,10 @@ class Contacts extends React.Component {
         lastName: 'Flintstone'
       }
     });
-   	instance.post(`/contact`, {params: { testing: "1 2 3 testing"} })
+   	instance.post(`/contact`, {data: {
+        firstName: 'Fred',
+        lastName: 'Flintstone'
+      }})
    	.then ((response) => {
    		this.setState({submitted:true})
    	})
@@ -62,8 +65,7 @@ class Contacts extends React.Component {
 	          Name:
 	          <input type="text" value={this.state.name} onChange={this.handleChangeName} />
 	          E-mail:
-	          <input type="text" value={this.state.email} onChange={this.handleChangeEmail} />
-	          Subject:
+2	          Subject:
 	          <input type="text" value={this.state.subject} onChange={this.handleChangeSubject} />
 	          Inquiry:
 	          <textarea style={{display: "block", width: "301px"}} value={this.state.inquiry} onChange={this.handleChangeInquiry} />
