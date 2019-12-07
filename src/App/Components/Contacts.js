@@ -29,7 +29,7 @@ class Contacts extends React.Component {
 
   handleSubmit(event) {
   	var instance = axios.create({
-  	  baseURL: 'http://localhost:8080'
+  	  baseURL: 'https://restarauntapp123.herokuapp.com/'
   	});
     event.preventDefault();
     instance({
@@ -40,10 +40,7 @@ class Contacts extends React.Component {
         lastName: 'Flintstone'
       }
     });
-   	instance.post(`/contact`, {data: {
-        firstName: 'Fred',
-        lastName: 'Flintstone'
-      }})
+   	instance.post(`/contact`)
    	.then ((response) => {
    		this.setState({submitted:true})
    	})
@@ -65,7 +62,8 @@ class Contacts extends React.Component {
 	          Name:
 	          <input type="text" value={this.state.name} onChange={this.handleChangeName} />
 	          E-mail:
-2	          Subject:
+	          <input type="text" value={this.state.email} onChange={this.handleChangeEmail} />
+	          Subject:
 	          <input type="text" value={this.state.subject} onChange={this.handleChangeSubject} />
 	          Inquiry:
 	          <textarea style={{display: "block", width: "301px"}} value={this.state.inquiry} onChange={this.handleChangeInquiry} />
