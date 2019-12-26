@@ -10,7 +10,7 @@
 		const item9 = {id: 9, name: "Turkey Sandwich", description:"Rye Bread, Black Pepper turkey, lettuce, tomato, and your choice of cheese", price:11.99}
 		const item10 = {id: 10, name: "Grilled Cheese", description:"Multigrain bread and your choice of cheese", price:11.99}
 		const item11 = {id: 11, name: "Smoked Salmon", description:"Comes with roasted vegetables on the side", price:11.99}
-		const item12 = {id: 12, name: "Soup", description:"= Soup of the Day special", price:11.99}
+		const item12 = {id: 12, name: "Soup", description:"Soup of the Day special", price:11.99}
 		const item13 = {id: 13, name: "Royal Crown Cola", description:"A Crisp RC Cola to have with your meal", price:11.99}
 		const item14 = {id: 14, name: "Sparkling Water", description:"Seltzer, club soda, etc", price:14.99}
 		const item15 = {id: 15, name: "Lemonade", description:"Lemons freshly squeezed", price:13.99}
