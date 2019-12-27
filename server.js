@@ -15,6 +15,7 @@ app.use( (req, res, next) => {
 		res.header('Access-Control-Allow-Methods', 'PUT, POST, PATCH, DELETE, GET');
 		return res.status(200).json({})
 	}
+	next();
 });
 const nodemailer = require('nodemailer');
 app.use(express.static(path.join(__dirname, 'build')));
