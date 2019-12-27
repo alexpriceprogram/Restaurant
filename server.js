@@ -5,7 +5,7 @@ const app = express();
 
 var cors = require('cors');
 
-app.use(cors());
+app.use(cors('https://elmerseatery.herokuapp.com/'));
 'use strict';
 const nodemailer = require('nodemailer');
 app.use(express.static(path.join(__dirname, 'build')));
@@ -61,5 +61,4 @@ app.post('/contact', function(req, res){
 	sendMail(req, res)
 	res.end();
 })
-console.log(process.env.PORT)
 app.listen(process.env.PORT || 8080);
