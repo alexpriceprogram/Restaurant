@@ -5,8 +5,7 @@ const app = express();
 
 var cors = require('cors');
 
-app.use(cors('https://elmerseatery.herokuapp.com/'));
-'use strict';
+app.use(cors());
 const nodemailer = require('nodemailer');
 app.use(express.static(path.join(__dirname, 'build')));
 
