@@ -29,17 +29,9 @@ class Contacts extends React.Component {
 
   handleSubmit(event) {
   	var instance = axios.create({
-  	  baseURL: 'http://elmerseatery.herokuapp.com/contact'
+  	  baseURL: 'http://localhost:8080'
   	});
     event.preventDefault();
-    instance({
-      method: 'post',
-      url: '/contact',
-      data: {
-        firstName: 'Fred',
-        lastName: 'Flintstone'
-      }
-    });
    	instance.post(`/contact`)
    	.then ((response) => {
    		this.setState({submitted:true})
