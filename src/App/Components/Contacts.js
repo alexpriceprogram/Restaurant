@@ -29,7 +29,7 @@ class Contacts extends React.Component {
 
   handleSubmit(event) {
   	var instance = axios.create({
-  	  baseURL: 'https://elmerseatery.herokuapp.com/'
+  	  baseURL: 'http://elmerseatery.herokuapp.com/contact'
   	});
     event.preventDefault();
     instance({
@@ -44,6 +44,10 @@ class Contacts extends React.Component {
    	.then ((response) => {
    		this.setState({submitted:true})
    	})
+   	.catch(function (error) {
+   	    // handle error
+   	    console.log(error);
+   	  })
   }
 
   render() {
