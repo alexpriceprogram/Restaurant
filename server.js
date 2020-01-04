@@ -60,4 +60,4 @@ app.post('/contact', function(req, res){
 	sendMail(req, res)
 	res.end();
 })
-app.listen(process.env.PORT || 8080);
+app.listen(8080);
