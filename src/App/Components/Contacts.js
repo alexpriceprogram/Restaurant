@@ -29,7 +29,7 @@ class Contacts extends React.Component {
 
   handleSubmit(event) {
   	var instance = axios.create({
-  	  baseURL: 'http://localhost:8080'
+  	  baseURL: 'http://http://elmerseatery.herokuapp.com/'
   	});
     event.preventDefault();
    	instance.post(`/contact`)
