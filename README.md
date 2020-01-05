@@ -9,10 +9,10 @@ Express version 4.17.1
 
 <img src="https://i.ibb.co/ctKDtp1/carousel.gif">
 
-<img src="https://i.imgur.com/H0VcENj.png>
+<img src="https://i.imgur.com/H0VcENj.png">
 
-<img src="https://i.imgur.com/IFqxisB.jpg>
+<img src="https://i.imgur.com/IFqxisB.jpg">
 
-<img src="https://i.imgur.com/AFqNeGA.png>
+<img src="https://i.imgur.com/AFqNeGA.png">
 
-<img src="https://i.imgur.com/8LTof3p.png>
+<img src="https://i.imgur.com/8LTof3p.png">
