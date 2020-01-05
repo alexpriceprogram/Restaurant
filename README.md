@@ -5,6 +5,7 @@ Node version 8.10.0
 React version 16.8.6
 Express version 4.17.1
 
+Mock website made for a restaraunt. Made this to improve skills in making websites using react and also to gain some understanding of node/express. Learned how to do useful things such as tabbed menus and image carousels which can be applied later to other websites I would make in the future.
 
 # Landing/main page with image carousel
 <img src="https://i.ibb.co/bQcQw1b/carousel-FINAL.gif">
