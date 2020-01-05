@@ -5,15 +5,14 @@ Node version 8.10.0
 React version 16.8.6
 Express version 4.17.1
 
+<img src="https://i.ibb.co/yk6mDJp/menu.gif">
 
-![Landing page](https://i.ibb.co/ctKDtp1/carousel.gif)
+<img src="https://i.ibb.co/ctKDtp1/carousel.gif">
 
-![Menu](https://i.ibb.co/yk6mDJp/menu.gif)
+<img src="https://i.imgur.com/H0VcENj.png>
 
-![Info page](https://i.imgur.com/H0VcENj.png)
+<img src="https://i.imgur.com/IFqxisB.jpg>
 
-![Careers Page](https://i.imgur.com/IFqxisB.jpg)
+<img src="https://i.imgur.com/AFqNeGA.png>
 
-![Contact Page](https://i.imgur.com/AFqNeGA.png)
-
-![Contact Submitted](https://i.imgur.com/8LTof3p.png)
+<img src="https://i.imgur.com/8LTof3p.png>
